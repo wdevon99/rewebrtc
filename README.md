@@ -1,5 +1,10 @@
 # rewebrtc
 
+# Prerequisite
+
+You need NodeJs intalled to use NPM(Node Package Manager)
+
+
 # Installation
 1. [react-native-webrtc](https://github.com/oney/react-native-webrtc#react-native-webrtc-1)
 
