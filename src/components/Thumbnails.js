@@ -6,6 +6,7 @@ import config from "../config/app.js";
 
 export default class Thumbnails extends Component {
 
+  //constructor
   constructor(props) {
     super(props);
     const dataSource = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
@@ -14,6 +15,7 @@ export default class Thumbnails extends Component {
     }
   }
 
+  //life cycle method
   componentWillReceiveProps(nextProps) {
     let b = nextProps.streams != this.props.streams || nextProps.activeStreamId != this.props.activeStreamId;
     if(b) {
@@ -23,6 +25,7 @@ export default class Thumbnails extends Component {
     }
   }
 
+  //render method
   render() {
     if(this.props.streams.length <= 1) {
       return null;
