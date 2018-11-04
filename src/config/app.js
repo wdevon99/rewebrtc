@@ -1,4 +1,4 @@
-import {Dimensions} from 'react-native';
+import { Dimensions } from 'react-native';
 
 const window = Dimensions.get('window');
 
@@ -8,8 +8,8 @@ export default {
   thumbnailHeight: 100,
   useRCTView: true, //debug or not?
   video: {
-    minWidth: 500,
-    minHeight: 300,
+    minWidth: 600,
+    minHeight: 400,
     minFrameRate: 30
   }
 }
